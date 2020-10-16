@@ -1,0 +1,32 @@
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  width: 1200px;
+  display: flex;
+  padding-top: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+#description {
+  text-align: center;
+}
+
+.tooltip{
+	border: solid 1px black;
+	background: white;
+	position: absolute;
+	heigth: 150px;
+	padding: 5px;
+}
+
+#legend {
+	border: solid 1px grey;
+	margin: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
